@@ -1,6 +1,6 @@
 a=int(input('Podaj 1 liczbę: '))
 b=int(input('Podaj 2 liczbę: '))
-if a<0 and b<0:
+if a < 0 and b<0:
     exit("Obydwie liczby są mniejsze od 0")
 if a<0:
     a=-a

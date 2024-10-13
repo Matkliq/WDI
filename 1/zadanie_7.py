@@ -1,7 +1,7 @@
-a= int(input('Podaj początek zakresu: '))
+a = int(input('Podaj początek zakresu: '))
 b = int(input('Podaj koniec zakresu: '))
-if b-a<20:
-    while (a<=b):
+if b-a < 20:
+    while a<=b:
         print(a)
         a+=1
 else:
